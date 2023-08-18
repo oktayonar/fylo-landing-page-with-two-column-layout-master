@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  background-color: hsl(240, 75%, 98%);
+}
+.main-navbar .nav a {
+  color: hsl(243, 87%, 12%);
+  font-weight: 400;
+}
+.main-navbar .nav a:hover {
+  color: hsl(238, 22%, 44%);
+}
+.main-header h1 {
+  color: hsl(243, 87%, 12%);
+  font-weight: 700;
+  line-height: 3.2rem;
+}
+.main-header input {
+  width: 55%;
+  margin-right: 0.7rem;
+  border-color: hsl(243, 87%, 12%);
+}
+.main-header input::placeholder {
+  opacity: 0.5;
+}
+.main-header button {
+  width: 30%;
+  margin-right: 1rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+.fylo-detail {
+  margin: 10rem 0 7rem;
+}
+.fylo-detail h1 {
+  color: hsl(243, 87%, 12%);
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+.fylo-detail .fylo-works {
+  text-decoration: none;
+  color: hsl(170, 45%, 43%);
+  border-color: hsl(170, 45%, 43%);
+  border-bottom: 2px solid hsl(170, 45%, 43%);
+  font-size: 1.1rem;
+}
+.fylo-detail .card {
+  width: 26rem;
+}
+.fylo-detail i {
+  font-size: 1.5rem;
+}
+.fylo-detail .card p {
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+.fylo-detail .card .user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.fylo-detail .card .user-information h5,
+span {
+  font-size: 0.9rem;
+}
+.register {
+  background-color: hsl(238, 22%, 44%);
+  color: white;
+  padding: 5rem 0;
+}
+.register h2 {
+  font-weight: 700;
+}
+.register .register-form .btn {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.register .register-form .btn,
+.form-control {
+  padding: 0.8rem 2rem;
+}
+.register .register-form .form-control::placeholder {
+  opacity: 0.5;
+}
+.main-footer {
+  background-color: hsl(243, 87%, 12%);
+  padding: 5.5rem 0;
+  color: hsl(240, 75%, 98%);
+}
+.main-footer .contact i {
+  font-size: 1.3rem;
+  margin-right: 0.8rem;
+}
+.main-footer .img-fluid {
+  filter: brightness(0) invert(1);
+}
+.main-footer .table {
+  color: hsl(240, 75%, 98%);
+}
+.main-footer .nav a {
+  color: hsl(240, 75%, 98%);
+}
+.main-footer .nav a:hover {
+  color: hsl(238, 22%, 44%);
+}
+.main-footer span .fa-brands {
+  font-size: 1.4rem;
+  padding: 0.4rem;
+  margin-right: 0.4rem;
+  border: 1px solid hsl(240, 75%, 98%);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.main-footer span .fa-brands:hover {
+  color: hsl(238, 22%, 44%);
+  border-color: hsl(238, 22%, 44%);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .main-navbar .navbar-brand {
+    width: 10rem;
+  }
+  .main-navbar ul a {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+  .main-header form input {
+    width: 100%;
+  }
+  .main-header form .btn {
+    width: 100%;
+    margin-top: 0.7rem;
+    padding: 1rem 2rem;
+  }
+  .fylo-detail .card {
+    width: 90%;
+    margin: auto;
+  }
+  .register .btn {
+    width: 100%;
+  }
+}
+@media (max-width: 568px) {
+  .main-navbar .navbar-brand {
+    width: 7rem;
+  }
+  .main-navbar {
+    padding: 0 1.3rem;
+  }
+  .main-header {
+    padding: 0 1.3rem;
+  }
+  .main-navbar ul a {
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .fylo-detail {
+    padding: 0 1.3rem;
+  }
+  .fylo-detail h1 {
+    font-size: 1.4rem;
+    margin-top: 0.8rem;
+  }
+  .register {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
+  .register .btn {
+    width: 75%;
+  }
+  .register-form input {
+    width: 75%;
+    margin: auto;
+  }
+}
